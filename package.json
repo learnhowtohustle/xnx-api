@@ -1,0 +1,39 @@
+{
+  "name": "react-native-rate",
+  "version": "1.2.9",
+  "description": "React Native Rate is a cross platform solution to getting users to easily rate your app.",
+  "main": "index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm --no-git-tag-version version patch && git add . && git commit -am \"Next Version\" && git push && npm publish",
+    "lint": "node_modules/.bin/eslint ."
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "rate",
+    "review",
+    "rating",
+    "rate me"
+  ],
+  "author": "Kjell Connelly",
+  "license": "MIT",
+  "peerDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KjellConnelly/react-native-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KjellConnelly/react-native-rate/issues"
+  },
+  "homepage": "https://github.com/KjellConnelly/react-native-rate#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-native": "^3.5.0"
+  }
+}
